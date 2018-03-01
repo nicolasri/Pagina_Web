@@ -1,0 +1,26 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background: rgba(183,222,237,1);
+    background: linear-gradient(135deg, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 35%, rgba(113,206,239,1) 43%, rgba(183,222,237,1) 57%, rgba(33,180,226,1) 100%);
+}
+
+.forma_imagen {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+   
+}
+.girar {
+    /*border: 5px solid red;*/
+    /*background: green;*/
+    height: 300px;
+    width: 300px;
+    position: relative;
+    margin: 50px;
+    cursor: pointer;
+    transform-origin: center center;
+    transition: all 1.5s;
+}
+.girar:hover{
+    transform: rotate3d(1,1,1,360deg);
+}
